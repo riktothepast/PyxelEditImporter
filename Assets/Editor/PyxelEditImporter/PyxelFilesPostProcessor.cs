@@ -6,10 +6,9 @@ namespace net.fiveotwo.pyxelImporter
 {
     class PyxelFilesPostProcessor : AssetPostprocessor
     {
-
         static void OnPostprocessAllAssets(string[] importedAssets, string[] deletedAssets, string[] movedAssets, string[] movedFromAssetPaths, bool didDomainReload)
         {
-            PyxelEditImporter pyxelEditImporter = new ();
+            PyxelEditImporter pyxelEditImporter = ScriptableObject.CreateInstance<PyxelEditImporter>();
             foreach (string str in importedAssets)
             {
                 string ext = Path.GetExtension(str);
