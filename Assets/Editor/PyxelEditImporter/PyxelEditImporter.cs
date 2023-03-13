@@ -16,6 +16,13 @@ namespace net.fiveotwo.pyxelImporter
             CreateInstance<PyxelEditImporter>().ImportFiles();
         }
 
+        public void ImportFile(string path)
+        {
+            FileInfo file = new FileInfo(path);
+            OpenPyxelFile(file);
+            AssetDatabase.Refresh(ImportAssetOptions.ForceSynchronousImport);
+        }
+
         private void ImportFiles()
         {
             List<DirectoryInfo> directoryInfos = CheckDirectories(Application.dataPath);
