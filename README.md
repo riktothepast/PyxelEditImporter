@@ -1,10 +1,44 @@
-# PyxelEditImporter
+# Pyxel Edit Importer
 
-A tool to auto import .pyxel files into unity.
+A tool to import `.pyxel` files into `Unity Game Engine`.
 
-##### Current features:
-- Generates .png files from a .pyxel file
-- Slicing of sprite frames
-- Creates animation clips **
+### Features
+---
+- Automatic export of file layers into a single `.png`.
+- Slices animation frames based on tile size.
+- Creates animation clips for each one of the animations in the `.pyxel` file.
 
-** Note: animation timings are off, and will  be fixed in an upcoming update.
+### Installation
+-----
+
+##### Unity package manager
+
+Install the package "pyxelImporter" into your project, find the file "Packages/manifest.json" and edit it add this entry:
+```
+{
+  "dependencies": {
+     "net.fiveotwo.pyxelImporter": "https://github.com/riktothepast/PyxelEditImporter.git#latest",
+      ...
+  },
+}
+```
+##### The madperson way
+- Download this project as a `.zip`
+- Place the `Editor/PyxelEditImporter` folder somewhere in your project.
+
+#### Importing files
+---- 
+Just drag and drop new files into your project, the importer will detect and generate all files.
+![File Import](https://github.com/riktothepast/Controller2D/blob/master/README_FileImport.gif)
+![Animations](https://github.com/riktothepast/Controller2D/blob/master/README_Animations.gif)
+
+If for some reason you want to re import all files, you can go to `502 Tools/PyxelEditImporter/Re Import`
+
+
+#### Limitations
+----
+Right now, the following is not supported, this functionality may arrive as the project continues to evolve.
+- Blending options in layers.
+- Alpha values in layers.
+- Tile imports.
+- Slicing of frames that are not part of an animation.
