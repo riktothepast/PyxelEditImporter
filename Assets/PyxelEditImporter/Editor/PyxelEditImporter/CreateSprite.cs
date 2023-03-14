@@ -68,7 +68,7 @@ namespace net.fiveotwo.pyxelImporter
             AssetDatabase.ImportAsset($"{importerPath}", ImportAssetOptions.ForceUpdate);
             TextureImporter textureImporter = AssetImporter.GetAtPath($"{importerPath}") as TextureImporter;
             textureImporter.filterMode = FilterMode.Point;
-            textureImporter.wrapMode = TextureWrapMode.Repeat;
+            textureImporter.wrapMode = TextureWrapMode.Clamp;
             textureImporter.spritePixelsPerUnit = spriteSize;
             textureImporter.spriteImportMode = SpriteImportMode.Multiple;
             textureImporter.spritesheet = GetAnimationMetadata(data.animations, data.canvas);
