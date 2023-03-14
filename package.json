@@ -2,7 +2,7 @@
     "name": "net.fiveotwo.pyxeledit-importer",
     "displayName": "Pyxel Edit Importer",
     "version": "0.1.0",
-    "unity": "2021.3.8f1",
+    "unity": "2021.3",
     "description": "A tool to import Pyxel Edit files into Unity.",
     "keywords": [
         "PyxelEdit",
