@@ -18,7 +18,7 @@ Install the package `pyxelImporter` into your project, find the file `Packages/m
 ```json
 {
   "dependencies": {
-     "net.fiveotwo.pyxelImporter": "https://github.com/riktothepast/PyxelEditImporter.git#latest",
+     "net.fiveotwo.pyxelImporter": "https://github.com/riktothepast/PyxelEditImporter.git#0.1.0",
       ...
   },
 }
@@ -29,8 +29,10 @@ Install the package `pyxelImporter` into your project, find the file `Packages/m
 - Place the `Editor/PyxelEditImporter` folder somewhere in your project.
 
 ### Importing files
----- 
+----
+
 Just drag and drop new files into your project, the importer will detect and generate all files.
+
 ![File Import](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_FileImport.gif)
 
 Inside the folder `${yourFileName}_animations` you'll find all the clips created from the `.pyxel` file.
