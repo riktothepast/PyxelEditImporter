@@ -1,0 +1,20 @@
+{
+    "name": "net.fiveotwo.pyxelImporter",
+    "displayName": "Pyxel Edit Importer",
+    "version": "0.1.0",
+    "unity": "2021.3.8f1",
+    "description": "A tool to import Pyxel Edit files into Unity.",
+    "keywords": [
+        "PyxelEdit",
+        "Importer",
+        "Tool",
+        "physics-less"
+    ],
+    "category": "2D",
+    "dependencies": {},
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/502Studios/ControllableCharacter"
+    }
+}
