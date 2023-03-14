@@ -13,7 +13,11 @@ A tool to import `.pyxel` files into `Unity Game Engine`.
 
 #### Unity package manager
 
-Install the package `pyxelImporter` into your project, find the file `Packages/manifest.json` and edit it add this entry:
+Open `Window/Package Manager` and select the add package from gitUrl option:
+
+![Unity Package Manager](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_PackageManager.gif)
+
+You can also do this manually, find the file `Packages/manifest.json` and add the package:
 
 ```json
 {
@@ -25,6 +29,7 @@ Install the package `pyxelImporter` into your project, find the file `Packages/m
 ```
 
 #### The madperson way
+
 - Download this project as a `.zip`
 - Place the `Editor/PyxelEditImporter` folder somewhere in your project.
 
