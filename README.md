@@ -32,7 +32,9 @@ Install the package `pyxelImporter` into your project, find the file `Packages/m
 ---- 
 Just drag and drop new files into your project, the importer will detect and generate all files.
 ![File Import](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_FileImport.gif)
+
 Inside the folder `${yourFileName}_animations` you'll find all the clips created from the `.pyxel` file.
+
 ![Animations](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_Animations.gif)
 
 If for some reason you want to re import all files, you can go to `502 Tools/PyxelEditImporter/Re Import`
