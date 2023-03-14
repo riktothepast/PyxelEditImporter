@@ -26,7 +26,7 @@ Install the package "pyxelImporter" into your project, find the file "Packages/m
 - Download this project as a `.zip`
 - Place the `Editor/PyxelEditImporter` folder somewhere in your project.
 
-#### Importing files
+### Importing files
 ---- 
 Just drag and drop new files into your project, the importer will detect and generate all files.
 ![File Import](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_FileImport.gif)
@@ -35,7 +35,7 @@ Just drag and drop new files into your project, the importer will detect and gen
 If for some reason you want to re import all files, you can go to `502 Tools/PyxelEditImporter/Re Import`
 
 
-#### Limitations
+### Limitations
 ----
 Right now, the following is not supported, this functionality may arrive as the project continues to evolve.
 - Blending options in layers.
