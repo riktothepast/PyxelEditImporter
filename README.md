@@ -29,8 +29,8 @@ Install the package "pyxelImporter" into your project, find the file "Packages/m
 #### Importing files
 ---- 
 Just drag and drop new files into your project, the importer will detect and generate all files.
-![File Import](https://github.com/riktothepast/PyxelEditImporter/blob/master/README_FileImport.gif)
-![Animations](https://github.com/riktothepast/PyxelEditImporter/blob/master/README_Animations.gif)
+![File Import](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_FileImport.gif)
+![Animations](https://github.com/riktothepast/PyxelEditImporter/blob/main/README_Animations.gif)
 
 If for some reason you want to re import all files, you can go to `502 Tools/PyxelEditImporter/Re Import`
 
